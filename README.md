@@ -1,7 +1,7 @@
 # Terraform State
 Terraform must store the state of your managed infrastructure and configuration. This state is used by Terraform to map real-world resources to your configuration, keep track of metadata, and improve performance for large infrastructures.
 
-This state is stored by default in a local file named "terraform.tfstate", but is recommended to store it in Terraform Cloud or S3 to version, encrypt, and securely share it with your team.
+This state is stored by default in a local file named "terraform.tfstate", but is recommended to store it in Terraform Cloud or AWS S3 to version, encrypt, and securely share it with your team.
 
 Terraform uses the state to determine which changes to make to your infrastructure. Before any operation, Terraform does a refresh to update the state with the real infrastructure.
 
